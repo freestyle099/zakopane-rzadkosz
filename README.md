@@ -1,69 +1,59 @@
-# Zakopane-Rzadkosz
+# ZakopaneRzadkosz
 
-## Build Setup
+This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.0.6.
+
+## Development server
+
+To start a local development server, run:
 
 ```bash
-# install dependencies
-$ yarn install
-
-# serve with hot reload at localhost:3000
-$ yarn dev
-
-# build for production and launch webserver
-$ yarn build
-$ yarn start
-
-# generate static project
-$ yarn generate
+ng serve
 ```
 
-For detailed explanation on how things work, check out the [documentation](https://nuxtjs.org).
+Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
 
-## Special Directories
+## Code scaffolding
 
-You can create the following extra directories, some of which have special behaviors. Only `pages` is required; you can delete them if you don't want to use their functionality.
+Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
 
-### `assets`
+```bash
+ng generate component component-name
+```
 
-The assets directory contains your uncompiled assets such as Stylus or Sass files, images, or fonts.
+For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
 
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/assets).
+```bash
+ng generate --help
+```
 
-### `components`
+## Building
 
-The components directory contains your Vue.js components. Components make up the different parts of your page and can be reused and imported into your pages, layouts and even other components.
+To build the project run:
 
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/components).
+```bash
+ng build
+```
 
-### `layouts`
+This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
 
-Layouts are a great help when you want to change the look and feel of your Nuxt app, whether you want to include a sidebar or have distinct layouts for mobile and desktop.
+## Running unit tests
 
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/layouts).
+To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
 
+```bash
+ng test
+```
 
-### `pages`
+## Running end-to-end tests
 
-This directory contains your application views and routes. Nuxt will read all the `*.vue` files inside this directory and setup Vue Router automatically.
+For end-to-end (e2e) testing, run:
 
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/get-started/routing).
+```bash
+ng e2e
+```
 
-### `plugins`
+Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
 
-The plugins directory contains JavaScript plugins that you want to run before instantiating the root Vue.js Application. This is the place to add Vue plugins and to inject functions or constants. Every time you need to use `Vue.use()`, you should create a file in `plugins/` and add its path to plugins in `nuxt.config.js`.
+## Additional Resources
 
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/plugins).
-
-### `static`
-
-This directory contains your static files. Each file inside this directory is mapped to `/`.
-
-Example: `/static/robots.txt` is mapped as `/robots.txt`.
-
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/static).
-
-### `store`
-
-This directory contains your Vuex store files. Creating a file in this directory automatically activates Vuex.
-
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/store).
+For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
